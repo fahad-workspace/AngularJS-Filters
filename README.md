@@ -1,2 +1,2 @@
-# AngularJS-App
-Foundation project for AngularJS
+# AngularJS-Filters
+Filters project for AngularJS
