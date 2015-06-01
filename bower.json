@@ -1,0 +1,17 @@
+{
+  "name": "AngularJS-Filters",
+  "description": "Foundation project for AngularJS",
+  "version": "1.0.1",
+  "homepage": "https://github.com/fahad-workspace/AngularJS-Filters",
+  "license": "MPL-2.0",
+  "private": false,
+  "dependencies": {
+    "angular": "~1.3.x",
+    "angular-mocks": "~1.3.x",
+    "angular-route": "~1.3.x",
+    "angular-resource": "~1.3.x",
+    "angular-animate": "~1.3.x",
+    "jquery": "~2.0.x",
+    "bootstrap": "~3.2.x"
+  }
+}

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" ng-app="angularFilters">
+<head>
+    <meta charset="utf-8">
+    <title>AngularJS-Filters</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <script src="bower_components/jquery/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="js/filters.js"></script>
+</head>
+<body>
+
+<div ng-controller="filterCtrl">
+    <h3 class="text-center">Filter project for AngularJS</h3>
+    <br>
+    Search: </label><input ng-model="query">
+    <br>
+    <br>
+    <ul>
+        <li ng-repeat="x in names | filter:query" class="list-unstyled">
+            {{ x.Name + ', ' + x.Country }}
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>
